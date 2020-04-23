@@ -18,6 +18,8 @@ a:hover {
     cursor: pointer;
 }
 
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -701,7 +703,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 35px auto 35px auto;
 }
 
 h2 {
@@ -771,7 +773,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #000;
+}
+
+.bgc-atomic-tangerine a {
+    color: #F3976C!important;
 }
 
 .tc-white {
@@ -1041,3 +1047,4 @@ h4 {
         text-align: center;
     }
 }
+
