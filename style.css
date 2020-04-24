@@ -785,12 +785,25 @@ h4 {
     background-color: #000;
 }
 
+.bgc-atomic-tangerine-contact {
+    background-color: #F3976C;
+}
+
+.bgc-atomic-tangerine-contact h1 {
+    color: #000 !important;
+}
+
 .bgc-atomic-tangerine a {
     color: #F3976C!important;
 }
 
 .tc-white {
     color: #F3976C!important;
+    font-weight: bold;
+}
+
+.tc-white-contact {
+    color: #000 !important;
     font-weight: bold;
 }
 
