@@ -18,6 +18,15 @@ a:hover {
     cursor: pointer;
 }
 
+.citation blockquote{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-left: none;
+    margin-bottom: 4%;
+}
+
 
 
 #page-loading-blocs-notifaction {
@@ -786,7 +795,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #000;
     color: #FFFFFF!important;
 }
 
