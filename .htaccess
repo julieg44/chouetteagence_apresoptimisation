@@ -40,6 +40,10 @@ ExpiresDefault "access plus 2 days"
 </IfModule>
 # END Expires Headers
 
+
+
+
+# gzip
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
 BrowserMatch ^Mozilla/4 gzip-only-text/html
