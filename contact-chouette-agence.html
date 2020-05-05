@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
@@ -48,7 +48,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact-chouette agence.html">Contact</a>
+						<a href="contact-chouette-agence.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -80,7 +80,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" >
 					<div class="form-group">
 						<label>
 							Nom
@@ -100,11 +100,11 @@
 						<input class="form-control" type="text" required aria-label="texte a saisir"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label aria-label="laissez un message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label aria-label="laissez un message"><textarea id="message" class="form-control" rows="4" cols="50" required aria-label="brief de votre projet"></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-label="brief de votre projet"></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
 						Envoyer
 					</button>
 				</form>
